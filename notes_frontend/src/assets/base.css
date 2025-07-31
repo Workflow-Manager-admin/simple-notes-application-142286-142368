@@ -34,6 +34,11 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
+
+  /* NOTES-APP PALETTE (for components, override as needed) */
+  --primary-color: #1976D2;
+  --secondary-color: #424242;
+  --accent-color: #FFC107;
 }
 
 @media (prefers-color-scheme: dark) {

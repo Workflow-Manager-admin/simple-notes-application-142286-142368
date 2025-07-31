@@ -2,6 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import './stores/notes' // Import notes store so Pinia auto-registers it
 
 import App from './App.vue'
 import router from './router'
